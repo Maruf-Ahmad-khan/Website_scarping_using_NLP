@@ -1,5 +1,3 @@
-def add(a, b):
-    return a + b
-
-obj = add(2,3)
-print("Sum is : \n", obj)
+from packages.visual import Visualize
+obj = Visualize()
+obj.Freq_count("my_plot.png")
